@@ -35,7 +35,7 @@
 	<div class="limiter">
 		<div class="container-login100" style="background-image: url('images/bg-01.jpg');">
 			<div class="wrap-login100">
-				<form class="login100-form" method="post" action="login.php"
+				<form class="login100-form" method="post" action="register.php"
 				    <?php include('errors.php'); ?>
 					<span class="login100-form-logo">
 						<i class="zmdi zmdi-landscape"></i>
@@ -73,7 +73,7 @@
 					</div>
 
 					<div class="text-center p-t-90">
-						<a class="txt1" href="login.php">
+						<a class="txt1" href="index.html">
 							Already a member?
 						</a>
 					</div>
