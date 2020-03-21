@@ -854,9 +854,22 @@ Author  : NEXELANE
     </div>
 	
 	<script SameSite="None; Secure" src="https://static.landbot.io/landbot-widget/landbot-widget-1.0.0.js"></script>
+<script SameSite="None; Secure" src="https://static.landbot.io/landbot-widget/landbot-widget-1.0.0.js"></script>
 <script>
-  var myLandbot = new LandbotLivechat({
+  var myLandbot = new LandbotPopup({
     index: 'https://landbot.io/u/H-407977-KNJOW804HIN0QXX3/index.html',
+  });
+</script><script>
+  // Show a proactive message on landbot load
+  myLandbot.on('landbot-load', function() {
+    myLandbot.sendProactive({
+  "message": "¡Hola!",
+  "author": "Lottus",
+  "avatar": "https://storage.googleapis.com/media.helloumi.com/101987/channels/NL626UB26WET0OIM1RX4AG49HWULQK7Y.png",
+  "extra": {
+    "hide_textbox": true
+  }
+});
   });
 </script>
 
